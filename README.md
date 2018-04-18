@@ -62,7 +62,10 @@ installer un service qui fera office de broker MQTT : Le plus connu est Mosquitt
 <p>Taper la commande suivante sur votre terminal  : sudo kextutil /Library/Extensions/usbserial.kext/</p> 
  </p>
 
- <li>Carte ESP8266 MOD</li>
+<ul>
+<li><strong>Composant</strong>
+<ul>
+<li>Carte ESP8266 MOD</li>
 <li>Ultrason HC-SR04</li>
 </ul>
 </li>
