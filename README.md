@@ -39,7 +39,6 @@ installer un service qui fera office de broker MQTT : Le plus connu est Mosquitt
 <p>tester mosquitto :</p>
 <blockquote>
 <p>mosquitto_sub -t topic_iot</p>
-</blockquote>
 <p>envoyer une trame mosquitto :</p>
 <blockquote>
 <p>mosquitto_pub -h localhost -t topic_iot -m message</p>
@@ -53,6 +52,15 @@ installer un service qui fera office de broker MQTT : Le plus connu est Mosquitt
 </blockquote>
 <h2 id="Explication">Explication de la solution</h2>
 <p>La solution permet d'envoyer la distance qui a été enregistré à notre serveur via une interface web qui affiche les données reçu. MQTT Mosquitto nous permet de facilité la communication entre notre objet connecté et notre serveur </p>
+
+<h2 id=difficulté>Difficulté rencontré</h2>
+<p>La Carte ESP8266 MOD n'était pas reconnu par notre Arduino. En effet en téléchargeant le driver sur MAC OS X, un problème concernant la siganture de celui-ci était présent.
+<li>Télécharger le driver :
+</blockquote>
+<p>Se rendre dans les Préférences système -> Sérutité et confidentialité -> Authorisé le developpeur de ce logiciel </p>
+</blockquote>
+<p>Taper la commande suivante sur votre terminal  : sudo kextutil /Library/Extensions/usbserial.kext/</p> 
+ </p>
 </body>
 
 </html>
