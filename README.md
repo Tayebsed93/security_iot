@@ -64,11 +64,11 @@ installer un service qui fera office de broker MQTT : Le plus connu est Mosquitt
 <li>Se rendre dans les Préférences système -> Sérutité et confidentialité -> Authorisé le developpeur de ce logiciel</li>
 <li>Taper la commande suivante sur votre terminal
 <blockquote>
-<p>sudo kextutil /Library/Extensions/usbserial.kext/</p>
+<p>sudo kextutil /Library/Extensions/usbserial.kext</p>
 </blockquote> </li>
 </ul>
 </li>
-
+<p>A la suite de cela, notre Serial print nous affichait pas ce que l'on voulait. Le professeur a constaté avec nous des problèmes inhabituel.
 </body>
 
 </html>
