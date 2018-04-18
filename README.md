@@ -4,7 +4,6 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TP IOT</title>
   <link rel="stylesheet" href="https://stackedit.io/style.css" />
 </head>
 
@@ -34,11 +33,6 @@ installer un service qui fera office de broker MQTT : Le plus connu est Mosquitt
 <li>Sur MAC OS X :
 <blockquote>
 <p>brew install mosquitto</p>
-</blockquote>
-</li>
-<li>Sur Windows :
-<blockquote>
-<p><a href="http://www.eclipse.org/downloads/download.php?file=/mosquitto/binary/win32/mosquitto-1.4.8-install-win32.exe">http://www.eclipse.org/downloads/download.php?file=/mosquitto/binary/win32/mosquitto-1.4.8-install-win32.exe</a></p>
 </blockquote>
 </li>
 </ul>
