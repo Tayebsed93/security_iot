@@ -56,13 +56,14 @@ installer un service qui fera office de broker MQTT : Le plus connu est Mosquitt
 <h2 id=difficulté>Difficulté rencontré</h2>
 <p>La Carte ESP8266 MOD n'était pas reconnu par notre Arduino. En effet en téléchargeant le driver sur MAC OS X, un problème concernant la siganture de celui-ci était présent.
 <li>Télécharger le driver :
-<blockquote>
 <p>Se rendre dans les Préférences système -> Sérutité et confidentialité -> Authorisé le developpeur de ce logiciel </p>
-</blockquote>
-<blockquote>
 <p>Taper la commande suivante sur votre terminal  : sudo kextutil /Library/Extensions/usbserial.kext/</p> 
-</blockquote>
  </p>
+
+ <li>Carte ESP8266 MOD</li>
+<li>Ultrason HC-SR04</li>
+</ul>
+</li>
 </body>
 
 </html>
