@@ -52,8 +52,7 @@ installer un service qui fera office de broker MQTT : Le plus connu est Mosquitt
 <p>node index.js #topic_iot detect/mouvement</p>
 </blockquote>
 <h2 id="Explication">Explication de la solution</h2>
-<p>La solution permet d'envoyer la distance qui a été enregistré à notre serveur via une interface web qui affiche les données reçu <br>
-MQTT Mosquitto nous permet de facilité la communication entre notre objet connecté et notre serveur </p>
+<p>La solution permet d'envoyer la distance qui a été enregistré à notre serveur via une interface web qui affiche les données reçu. MQTT Mosquitto nous permet de facilité la communication entre notre objet connecté et notre serveur </p>
 </body>
 
 </html>
