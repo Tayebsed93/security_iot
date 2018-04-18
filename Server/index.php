@@ -20,10 +20,10 @@ require_once("header.php");
     if($result->rowCount() != 0) {
         ?>
         <div class="starter-template">
-            <h1>Table</h1>
+            <h1>Donnée</h1>
             <br/>
             <table class="table">
-                <thead class="thead-dark">
+                <thead class="thead-light">
                 <tr>
                     <th scope="col">ID</th>
                     <th scope="col">Nom</th>
