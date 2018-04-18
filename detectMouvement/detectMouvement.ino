@@ -12,7 +12,7 @@ const char* password = "esgi12345";
 #define AIO_SERVERPORT  1883                   // on utilise le port 8883 pour le SSL
 #define AIO_USERNAME    ""
 WiFiClient client;
-Adafruit_MQTT_Client mqtt(&client, AIO_SERVER, AIO_SERVERPORT, AIO_USERNAME, AIO_KEY);
+Adafruit_MQTT_Client mqtt(&client, AIO_SERVER, AIO_SERVERPORT, AIO_USERNAME, "");
 Adafruit_MQTT_Publish mqttClient = Adafruit_MQTT_Publish(&mqtt, AIO_USERNAME "detect/mouvement");
 
 void MQTT_connect() {
