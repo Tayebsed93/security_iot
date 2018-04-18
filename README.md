@@ -38,18 +38,18 @@ installer un service qui fera office de broker MQTT : Le plus connu est Mosquitt
 </ul>
 <p>tester mosquitto :</p>
 <blockquote>
-<p>mosquitto_sub -t topic_name</p>
+<p>mosquitto_sub -t topic_iot</p>
 </blockquote>
 <p>envoyer une trame mosquitto :</p>
 <blockquote>
-<p>mosquitto_pub -h localhost -t topic_name -m message</p>
+<p>mosquitto_pub -h localhost -t topic_iot -m message</p>
 </blockquote>
 <p>Lancer le client mqtt :</p>
 <blockquote>
 <p>npm install</p>
 </blockquote>
 <blockquote>
-<p>node index.js #topic_name sensor/movements</p>
+<p>node index.js #topic_iot detect/mouvement</p>
 </blockquote>
 <h2 id="fonctionnement-de-la-solution">fonctionnement de la solution</h2>
 
